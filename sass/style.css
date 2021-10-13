@@ -1144,7 +1144,16 @@ footer {
   .advisory__image1 {
     width: 350px;
   }
-  .impact__img1{ 
-    width:330px;
+
+  .impact__img1 {
+    width: 330px;
+  }
+
+  .episode__image3 {
+    width: 330px;
+  }
+
+  .episode__form__get {
+    width: 330px;
   }
 }
