@@ -1110,6 +1110,12 @@ footer {
   .episode__form__get{
   width: 350px;
   }
+  .blog__header-slider h2{
+  padding-left: 113px;
+  }
+  .blog__header-slider p { 
+  padding-left: 75px;
+  }
 }
 @media (max-width: 451px) {
   .main__image1 {
