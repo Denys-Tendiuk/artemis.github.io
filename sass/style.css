@@ -1141,6 +1141,12 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .main__text h1 {
+  padding-right: 2rem;
+  }
+  .main__text p {
+    padding-right: 2rem;
+  }
 }
 @media (max-width: 399px) {
   .main__image1 {
