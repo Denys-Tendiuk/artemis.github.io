@@ -1135,6 +1135,11 @@ footer {
     width: 350px;
   }
 }
+@media (max-width: 380px) {
+  .episode__form__get{
+  width: 326px;
+  }
+}
 @media (max-width: 360px) {
   .main__image1 {
     width: 360px;
