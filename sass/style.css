@@ -1080,6 +1080,9 @@ footer {
   .download__btn-2 {
     margin-bottom: 40px;
   }
+  .episode__image-1{
+  display: none;
+  }
 }
 @media (max-width: 484px) {
   .impact__img1 {
@@ -1165,3 +1168,6 @@ footer {
     width: 330px;
   }
 }
+
+
+
