@@ -1096,7 +1096,7 @@ footer {
   }
 
   .blog__text {
-    text-align: center;
+/*     text-align: center; */
   }
 }
 @media (max-width: 419px) {
