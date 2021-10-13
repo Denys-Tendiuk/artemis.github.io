@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html, body {
+    overflow-x: hidden;
+}
 .btn {
   margin: 1rem;
   border-radius: 35px;
