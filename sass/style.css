@@ -1104,6 +1104,9 @@ footer {
   .episode__form__get .btn {
     margin-right: 5rem;
   }
+  .episode__form__get{
+  width:380px;
+  }
 }
 @media (max-width: 451px) {
   .main__image1 {
