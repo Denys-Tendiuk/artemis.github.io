@@ -1,4 +1,7 @@
-
+html, body {
+    overflow-x: hidden;
+    // overflow:  hidden;
+}
 
 // .main-page{
 //      display: block;
@@ -60,7 +63,13 @@
 // }
 
 
-
+// .main-page__navbar{ 
+//     width: 100%;
+// }
+// .navbar-nav{ 
+//     width: 100%;
+//      justify-content: space-between;
+// }
 .btn{ 
         margin: 1rem;
         border-radius: 35px;
@@ -85,6 +94,7 @@
     display: flex;
     margin: 0 -5px;
     
+    
 }
 
 
@@ -98,7 +108,7 @@
     position: relative;
     padding-top: 120px;
     // padding-left: 165px;
-    text-align: center;
+    // text-align: center;
     z-index: 1;
     
     
@@ -295,19 +305,12 @@ text-align: left;
 }
 
 .download{ 
-    background: url(../img/download/download-bg.png) center;
-    background: cover;
+      background-color: #2D415E;
+    &__block{ 
     text-align: center;
-//    img{
-//        display: inline-block;
-//        display: no-repeat;
-//        position: absolute;
-//        z-index: 1; 
-//     // width: 250px;
-//     padding-bottom: 3rem;
-    
-//    }
-
+        position: relative;
+        z-index: 2;
+    }
     &__header{ 
        
         font-family: Georgia;
@@ -323,8 +326,27 @@ padding-top: 80px;
     margin-bottom: 80px;
     background-color: #ffffff;
 }
+&__image{ 
+    position: relative;
+    z-index: 1;
+   margin-top: -28rem;
+   text-align: end;
+
+   
+}
+&__image1{ 
+    width: 400px;
+}
 
 }
+// .downloadapp{ 
+//     background-color: #2D415E;
+//     &__block{ 
+//         text-align: center;
+//     }
+// }
+
+
 
 .testimonials{ 
     // &__img-boy{ 
@@ -846,7 +868,7 @@ padding-bottom: 17px;
         // flex-wrap: wrap;
     }
     .main__text{
-       text-align: center;
+    //    text-align: center;
        h1{ 
         font-family: Georgia;
         font-size: 50px;
@@ -858,7 +880,6 @@ padding-bottom: 17px;
         z-index: 1;
        }
        p{ 
-           text-align: left;
         // padding-left: 5px;
         // padding-top: 15px;
         // color: #565656;
@@ -1290,7 +1311,12 @@ padding-bottom: 17px;
         .testimonials{ 
             text-align: center;
         }
-
+.blog__text p {
+    padding-right: 3rem;
+    }
+    .blog__btn{ 
+        margin-left: 3rem;
+    }
 
     }
     @media(max-width:540px){ 
@@ -1313,6 +1339,9 @@ padding-bottom: 17px;
         .download__btn-2{ 
             margin-bottom: 40px;
         }
+        .episode__image-1{ 
+            display: none;
+        }
 
     }
     @media(max-width:484px){ 
@@ -1329,9 +1358,7 @@ padding-bottom: 17px;
             // margin-left: 0.1rem;
             margin-left: 1px;
         }
-        .blog__text{ 
-            text-align: center;
-        }
+        
     }
 
     @media(max-width: 419px){ 
@@ -1343,7 +1370,30 @@ padding-bottom: 17px;
            margin-right: 5rem;
             }
         }
+        .episode__form__get{
+            width: 350px;
+            }
+        
+        .blog__header-slider h2 {
+            padding-left: 113px;
+            }
+        
+            .blog__header-slider p {
+                padding-left: 75px;
+            }
+
+            .episode__form__get{ 
+                .btn{ 
+               margin-right: 5rem;
+                }
+            }
     }
+    @media (max-width: 380px) {
+        .episode__form__get{
+        width: 340px;
+        }
+      }
+
     @media(max-width: 451px){ 
         .main__image1{ 
             width: 400px;
@@ -1357,6 +1407,19 @@ padding-bottom: 17px;
             width: 350px;
             justify-content: center;
         }
+         
+     
+        .main__text h1 {
+            padding-right: 2rem;
+            }
+
+            .main__text p {
+                padding-right: 2rem;
+                }
+                .main__btn{ 
+                    margin-right: 2rem;
+                }
+
         
     }
 
