@@ -257,7 +257,7 @@ html, body {
   margin-bottom: 32px;
 }
 .testimonials__quote:before {
-  content: url(img/testimonials/quote.svg);
+  content: url (img/testimonials/quote.svg);
   margin-right: 1rem;
 }
 
