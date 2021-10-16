@@ -17,6 +17,15 @@ html, body {
   margin: 0 -5px;
 }
 
+.main-page__navbar {
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  text-align: center;
+}
+
 .main__content {
   display: -webkit-box;
   display: -ms-flexbox;
