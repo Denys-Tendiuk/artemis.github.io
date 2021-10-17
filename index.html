@@ -754,6 +754,11 @@
 
   $('.testimonials__text-slider').slick({
         dots: true,
+       customPaging: function(slider, i) {
+      return '<span class="dot"></span>';
+
+    },
+        infinite: true,
         prevArrow: '.none',
         nextArrow: '.none',
         slidesToShow: 1,
