@@ -270,6 +270,24 @@ html, body {
   margin-right: 1rem;
 }
 
+.dot {
+  background-color: #BFC0C1;
+  border-radius: 0px;
+  border: none;
+  display: inline-block;
+  height: 3px;
+  width: 26px;
+  margin: 5px;
+}
+
+.dot:hover {
+  background-color: black;
+}
+
+.dot:active {
+  background-color: #2C2C2C;
+}
+
 .new__slick-slider {
   text-align: center;
   margin: 0px 10px;
