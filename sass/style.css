@@ -998,6 +998,14 @@ footer {
     display: inline-block;
     left: 0;
   }
+  
+   .testimonials__boy-block {
+    text-align: center;
+  }
+
+  .testimonials__block-slider {
+    text-align: center;
+  }
 
   .episode__block {
     background: url(../img/episode/episode-bg-2.png) center no-repeat;
