@@ -24,6 +24,7 @@ html, body {
   position: fixed;
   z-index: 3;
   text-align: center;
+  box-shadow: 0 0 1px;
 }
 
 .main__content {
