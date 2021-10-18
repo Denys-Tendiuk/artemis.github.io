@@ -957,6 +957,7 @@ footer {
   }
   .testimonials__text-slider p {
     text-align: center;
+    display: inline-block;
   }
   .testimonials__text-slider span {
     text-align: center;
@@ -989,6 +990,13 @@ footer {
   .episode__form__bg-form {
     border-radius: 20px 20px;
     width: 500px;
+  }
+  
+  .testimonials__boy-block:before {
+    content: url(../img/testimonials/testi-boy.jpg);
+    border-radius: 100%;
+    display: inline-block;
+    left: 0;
   }
 
   .episode__block {
