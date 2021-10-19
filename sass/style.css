@@ -803,6 +803,9 @@ footer {
     width: 1220px;
     margin-left: -23rem;
   }
+  .slick-dots {
+    text-align: left !important;
+  }
 }
 
 @media (max-width: 991px) {
