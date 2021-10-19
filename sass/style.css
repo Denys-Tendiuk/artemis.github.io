@@ -36,10 +36,13 @@ html, body {
 .main__text {
   margin: 0 4rem;
   position: relative;
-  padding-top: 120px;
-  z-index: 1;
+  padding-top: 100px;
+  z-index: 2;
+  margin-top: 90px;
 }
 .main__text h1 {
+   position: relative;
+  z-index: 2;
   font-family: Georgia;
   font-size: 60px;
   font-style: normal;
@@ -47,9 +50,10 @@ html, body {
   line-height: 74px;
   letter-spacing: 0px;
   text-align: left;
-  z-index: 1;
 }
 .main__text p {
+   position: relative;
+  z-index: 2;
   padding-left: 5px;
   padding-top: 24px;
   color: #565656;
@@ -64,6 +68,7 @@ html, body {
 
 .main__image {
   position: relative;
+  z-index: 1;
 }
 
 .trust h4 {
@@ -771,6 +776,26 @@ footer {
     width: 600px;
   }
 }
+
+@media (min-width: 991px) {
+  .main__text {
+    margin-left: 165px;
+  }
+  .main__text h1 {
+    width: 600px;
+  }
+  .main__text p {
+    width: 600px;
+  }
+
+  .main__image1 {
+    position: relative;
+    z-index: 1;
+    width: 1220px;
+    margin-left: -23rem;
+  }
+}
+
 @media (max-width: 991px) {
   .main__content {
     -ms-flex-wrap: wrap;
