@@ -96,9 +96,18 @@ html, body {
   margin-right: 6rem;
 }
 .trust__image-1 {
+   display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex-start;
+          flex-direction: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   display: inline-block;
-  padding: 0;
-  margin: 0;
+  margin-bottom: 18rem;
 }
 .trust__header {
   font-family: Georgia;
