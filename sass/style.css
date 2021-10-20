@@ -11,26 +11,22 @@ html, body {
 }
 
 .main-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 -5px;
 }
 
 .main-page__navbar {
   left: 0;
-  top: 0;
-  width: 100%;
   position: fixed;
   z-index: 3;
-  text-align: center;
-  box-shadow: 0 0 1px;
+  -webkit-box-shadow: 0 0 1px;
+          box-shadow: 0 0 1px;
 }
 
 .main__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #FDFDFD;
 }
 
 .main__text {
@@ -41,7 +37,7 @@ html, body {
   margin-top: 90px;
 }
 .main__text h1 {
-   position: relative;
+  position: relative;
   z-index: 2;
   font-family: Georgia;
   font-size: 60px;
@@ -52,7 +48,7 @@ html, body {
   text-align: left;
 }
 .main__text p {
-   position: relative;
+  position: relative;
   z-index: 2;
   padding-left: 5px;
   padding-top: 24px;
@@ -66,7 +62,7 @@ html, body {
   text-align: left;
 }
 
-.main__image {
+.main__image1 {
   position: relative;
   z-index: 1;
 }
@@ -88,7 +84,12 @@ html, body {
   margin-top: 68px;
 }
 .trust__money {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 110px;
 }
 .trust__image-2 {
@@ -96,7 +97,7 @@ html, body {
   margin-right: 6rem;
 }
 .trust__image-1 {
-   display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
@@ -281,7 +282,7 @@ html, body {
   margin-bottom: 32px;
 }
 .testimonials__quote:before {
-  content: url(img/testimonials/quote.JPG);
+  content: url(../img/testimonials/quote.svg);
   margin-right: 1rem;
 }
 
@@ -453,6 +454,7 @@ html, body {
 .blog__elements {
   margin-top: -3rem;
 }
+
 .episode__image1 {
   position: relative;
   z-index: 1;
@@ -681,10 +683,6 @@ footer {
 }
 
 @media (max-width: 1900px) {
-  .main__image {
-    width: 70%;
-  }
-
   .testimonials__slide-1 img {
     display: none;
   }
@@ -704,17 +702,10 @@ footer {
     line-height: 60px;
     letter-spacing: 0px;
     text-align: left;
-    z-index: 1;
+    z-index: 2;
   }
   .main__image {
     position: relative;
-    width: 51%;
-  }
-}
-@media (max-width: 1598px) {
-  .main__image {
-    width: 55%;
-    margin-left: 0;
   }
 }
 @media (max-width: 1591px) {
@@ -730,26 +721,12 @@ footer {
     text-align: left;
   }
 }
-@media (max-width: 1556px) {
-  .main__image {
-    width: 55%;
-    margin-left: 0;
-  }
-}
 @media (max-width: 1350px) {
-  .main__image {
-    width: 40%;
-  }
-
   .main__text {
     margin-right: 2rem;
   }
 }
 @media (max-width: 1280px) {
-  .main__image {
-    width: 40%;
-  }
-
   .main__text {
     margin-right: 2rem;
   }
@@ -770,25 +747,38 @@ footer {
     margin-bottom: 2rem;
   }
 
-  .blog__image {
+  .blog__image1 {
     width: 500px;
+  }
+
+  .episode__image1 {
+    margin-left: -3rem;
+    width: 1050px;
+  }
+}
+@media (max-width: 1159px) {
+  .episode__image1 {
+    width: 1100px;
   }
 }
 @media (max-width: 1100px) {
   .outcome__img1 {
     width: 650px;
   }
+
+  .episode__image1 {
+    width: 1000px;
+  }
 }
 @media (max-width: 1024px) {
-  .main__image {
-    width: 35%;
-  }
-
   .outcome__img1 {
     width: 600px;
   }
-}
 
+  .episode__image1 {
+    width: 1000px;
+  }
+}
 @media (min-width: 991px) {
   .main__text {
     margin-left: 165px;
@@ -799,6 +789,9 @@ footer {
   .main__text p {
     width: 600px;
   }
+  .main__text .episode__image1 {
+    margin-right: -5rem;
+  }
 
   .main__image1 {
     position: relative;
@@ -806,11 +799,11 @@ footer {
     width: 1220px;
     margin-left: -23rem;
   }
+
   .slick-dots {
     text-align: left !important;
   }
 }
-
 @media (max-width: 991px) {
   .main__content {
     -ms-flex-wrap: wrap;
@@ -907,10 +900,40 @@ footer {
   .episode__image-1 {
     margin-top: 1.5rem;
   }
+
+  .episode__block2 {
+    margin-left: -5rem;
+  }
+
+  .episode__image1 {
+    width: 850px;
+  }
+
+  .episode__image2 {
+    width: 300px;
+  }
 }
 @media (max-width: 902px) {
   .outcome__img1 {
     width: 520px;
+  }
+}
+@media (max-width: 891px) {
+  .episode__image1 {
+    width: 780px;
+  }
+
+  .episode__header-girls {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .episode__btn {
+    margin-top: -1rem;
+  }
+
+  .episode__image2 {
+    width: 250px;
   }
 }
 @media (max-width: 853px) {
@@ -949,6 +972,11 @@ footer {
 
   .testimonials__img1 {
     width: 350px;
+  }
+}
+@media (min-width: 767px) {
+  .episode__box2 {
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -1032,25 +1060,6 @@ footer {
     border-radius: 20px 20px;
     width: 500px;
   }
-  
-  .testimonials__boy-block:before {
-    content: url(../img/testimonials/testi-boy.jpg);
-    border-radius: 100%;
-    display: inline-block;
-    left: 0;
-  }
-  
-   .testimonials__boy-block {
-    text-align: center;
-  }
-
-  .testimonials__block-slider {
-    text-align: center;
-  }
-
-  .episode__block {
-    background: url(../img/episode/episode-bg-2.png) center no-repeat;
-  }
 
   .episode__image-2 {
     position: absolute;
@@ -1067,6 +1076,38 @@ footer {
 
   .episode__form__bg-form {
     margin-right: 0;
+  }
+
+  .testimonials__boy-block:before {
+    content: url(../img/testimonials/testi-boy.jpg);
+    border-radius: 100%;
+    display: inline-block;
+    left: 0;
+  }
+
+  .testimonials__boy-block {
+    text-align: center;
+  }
+
+  .testimonials__block-slider {
+    text-align: center;
+  }
+
+  .episode__box {
+    display: none;
+  }
+
+  .episode__box2 {
+    text-align: center;
+  }
+  .episode__box2 img {
+    position: relative;
+    z-index: 1;
+    width: 500px;
+  }
+  .episode__box2 h1 {
+    position: relative;
+    z-index: 2;
   }
 }
 @media (max-width: 785px) {
@@ -1175,6 +1216,13 @@ footer {
   .impact__img1 {
     width: 540px;
   }
+
+  .episode__box2 {
+    text-align: center;
+  }
+  .episode__box2 img {
+    width: 450px;
+  }
 }
 @media (max-width: 488px) {
   .download__btn {
@@ -1198,6 +1246,10 @@ footer {
   .advisory__image1 {
     width: 450px;
     margin-left: 1px;
+  }
+
+  .episode__box2 img {
+    width: 400px;
   }
 }
 @media (max-width: 419px) {
@@ -1223,6 +1275,11 @@ footer {
 
   .episode__form__get .btn {
     margin-right: 5rem;
+  }
+}
+@media (max-width: 399px) {
+  .episode__box2 img {
+    width: 350px;
   }
 }
 @media (max-width: 380px) {
