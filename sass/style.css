@@ -453,27 +453,21 @@ html, body {
 .blog__elements {
   margin-top: -3rem;
 }
-
-.episode__block {
-  background: url(../img/episode/Background.png) center no-repeat;
-  border-radius: 10%;
-  margin-top: 210px;
+.episode__image1 {
+  position: relative;
+  z-index: 1;
+  margin-top: 211px;
 }
-.episode__image-2 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+.episode__image2 {
+  position: relative;
+  z-index: 2;
+  margin-top: -22rem;
+  margin-left: 7rem;
 }
-.episode__image-1 {
-  position: absolute;
-  top: 3rem;
-  right: 2rem;
-}
-.episode__text {
-  text-align: center;
-  margin-top: 140px;
-}
-.episode__text h1 {
+.episode__header-girls {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
   font-family: Georgia;
   font-size: 40px;
   font-style: normal;
@@ -483,7 +477,16 @@ html, body {
   text-align: left;
   color: #ffffff;
 }
-.episode__girl {
+.episode__block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.episode__text {
+  position: relative;
+  z-index: 2;
+  margin-top: -14rem;
+  margin-left: 6rem;
   text-align: center;
 }
 
