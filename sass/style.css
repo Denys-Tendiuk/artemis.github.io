@@ -1385,4 +1385,8 @@ footer {
   .episode__form__get {
     width: 330px;
   }
+  ..episode__box2 h1{
+  font-size: 26px;
+  }
 }
+
