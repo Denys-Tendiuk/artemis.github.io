@@ -1349,6 +1349,9 @@ footer {
   .main__image1 {
     width: 350px;
   }
+  .episode__box2 img {
+    margin-left: -1rem;
+  }
 }
 @media (max-width: 360px) {
   .main__image1 {
