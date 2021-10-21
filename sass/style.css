@@ -1079,7 +1079,7 @@ footer {
     margin-top: 0;
   }
   .episode__text h1 {
-    font-size: 38px;
+    font-size: 33px;
   }
 
   .episode__form__bg-form {
@@ -1268,8 +1268,13 @@ footer {
     width: 400px;
   }
   .episode__box2 h1 {
-    font-size: 35px;
+    font-size: 32px;
     margin-left: -24rem;
+  }
+}
+@media (max-width: 422px) {
+  .episode__box2 h1{
+  font-size: 28px;
   }
 }
 @media (max-width: 419px) {
